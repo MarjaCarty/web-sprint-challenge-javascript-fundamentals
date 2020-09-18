@@ -17,7 +17,7 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-//nestedFunction is able to reach "up the chain" to the scope of myFunction to access the value of internal. Nested functions have access to the scopes of their containing functions.
+//nestedFunction is able to reach "up the chain" to the scope of myFunction to access the value of internal. Nested functions have access to the scopes of their containing functions. However, containing functions do NOT have access to anything within their nested functions.
 
 /* Task 2: Counter */
 
